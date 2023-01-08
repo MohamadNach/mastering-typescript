@@ -209,7 +209,6 @@ class Shapes {
   }
   public drawall(): void {
     console.log("********** START **********");
-
     this.shapes.forEach((s) => s.draw());
     console.log("*********** END ***********");
   }

@@ -188,3 +188,4 @@ shapes.drawall();
 shapes.add(new Square("S1", new Point(5, 6), 55));
 shapes.add(new Circle("C1", new Point(7, 8), 77));
 shapes.drawall();
+module.exports = { Point, Shape, Rectangle, Ellipse, Square, Circle, Shapes };
